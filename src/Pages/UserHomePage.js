@@ -1,8 +1,7 @@
 import React from "react";
 import "../Design/UserHome.css";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
-import UserNavbar from "../Components/UserNavbar";
+
 
 const GridBox = ({ data }) => {
   return (
