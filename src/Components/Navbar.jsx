@@ -29,7 +29,7 @@ const Navbar = () => {
     >
       <StyledToolbar>
         <Typography
-          variant="h3"
+          variant="h5"
           component="h2"          
           sx={{
             fontWeight: 700,
@@ -44,11 +44,10 @@ const Navbar = () => {
             component={Link}
             to={"/userlogin"}
             variant="contained"
-            sx={{
-              mr: 2,
-              px: 4,
+            sx={{              
+              px: 2.6,
               py: 1,
-              fontSize: "0.9rem",
+              fontSize: "0.6rem",
               textTransform: "capitalize",
               borderRadius: 0,
               borderColor: "#14192d",
@@ -69,9 +68,9 @@ const Navbar = () => {
             to={"/"}
             variant="outlined"
             sx={{
-              px: 4,
+              px: 2,
               py: 1,
-              fontSize: "0.9rem",
+              fontSize: "0.6rem",
               textTransform: "capitalize",
               borderRadius: 0,
               color: "#fff",
