@@ -44,7 +44,7 @@ const Header = () => {
             color: "#fff",
           }}
         >
-          Machine Learning made easy for you
+          Feature Sharing made easy for you
         </Typography>
 
         <Typography
@@ -56,7 +56,7 @@ const Header = () => {
             color: "#fff",
           }}
         >
-          Upload, download and reuse ML features on a click to train your
+          Upload, download and reuse Machine Learning features on a click to train your
           models.
         </Typography>
       </BoxText>
