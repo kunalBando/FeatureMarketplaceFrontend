@@ -39,8 +39,7 @@ const Navbar = () => {
           Feature Marketplace
         </Typography>
         <Box sx={{ display: { xs: "block", sm: "none" }}}></Box>
-        <Box sx={{ alignItems: "center" }}>
-          <a href="https://yellow-beach-0ba290010.4.azurestaticapps.net/">
+        <Box sx={{ alignItems: "center" }}>          
           <Button            
             variant="contained"
             sx={{              
@@ -61,8 +60,7 @@ const Navbar = () => {
             }}
           >
             User Login
-          </Button>
-          </a>
+          </Button>          
           <a href="https://featuremeshadmin.azurewebsites.net/">
           <Button           
             variant="outlined"            
