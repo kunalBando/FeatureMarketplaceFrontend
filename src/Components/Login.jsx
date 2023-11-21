@@ -34,7 +34,7 @@ export default function LoginPage() {
                     class="form-control form-control-lg"
                   />                  
                 </div>
-                <Link to="/userhome">
+                <Link to="https://yellow-beach-0ba290010.4.azurestaticapps.net">
                 <button class="btn btn-primary btn-lg btn-block" type="submit" >
                   Login
                 </button>
