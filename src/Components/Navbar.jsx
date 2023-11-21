@@ -38,11 +38,10 @@ const Navbar = () => {
         >
           Feature Marketplace
         </Typography>
-        <Box sx={{ display: { xs: "block", sm: "none" } }}></Box>
-        <Box>
-          <Button
-            component={Link}
-            to={"/userlogin"}
+        <Box sx={{ display: { xs: "block", sm: "none" }}}></Box>
+        <Box sx={{ alignItems: "center" }}>
+          <a href="https://yellow-beach-0ba290010.4.azurestaticapps.net/">
+          <Button            
             variant="contained"
             sx={{              
               px: 2.6,
@@ -63,10 +62,10 @@ const Navbar = () => {
           >
             User Login
           </Button>
-          <Button
-            component={Link}
-            to={"/"}
-            variant="outlined"
+          </a>
+          <a href="https://featuremeshadmin.azurewebsites.net/">
+          <Button           
+            variant="outlined"            
             sx={{
               px: 2,
               py: 1,
@@ -88,6 +87,7 @@ const Navbar = () => {
           >
             Admin Login
           </Button>
+          </a>
         </Box>
       </StyledToolbar>
     </AppBar>
